@@ -39,7 +39,7 @@ layers:
   - K
   - L
   - {t: ;, s: ':'}
-  - {t: ., h: '$$mdi:keyboard-return$$'}
+  - .
   - $$mdi:apple-keyboard-shift$$
   - Z
   - X
@@ -52,7 +52,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - $$mdi:apple-keyboard-shift$$
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
@@ -60,10 +60,10 @@ layers:
   - layer1
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - '2'
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:keyboard-esc$$
   - $$mdi:backspace-reverse-outline$$
   layer1:
   - {t: '`', s: '~'}
